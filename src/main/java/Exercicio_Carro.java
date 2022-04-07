@@ -1,10 +1,23 @@
-public class Exercicio_Carro {
+import java.util.Scanner;
+
+public class Exercicio_Carro  {
+    
     public static void main(String[] args) {
-<<<<<<< HEAD
-        System.out.println("beleza!");
-=======
-        System.out.println("teste para verificar se deu certo dentro de outra versão");
->>>>>>> 095a413beab81b0969e8e69d3dfea5fdf6cae662
-}
+       
+        Scanner sc = new Scanner(System.in);
+        
+        int A, B, soma;
+        System.out.println("Digite o valor de A = ");
+        A = sc.nextInt();
+        System.out.println("Digite o valor de B = " ); 
+        B = sc.nextInt();     
+        
+        soma = A + B;
+        
+        System.out.println("SOMA = " + soma);
+        
+        sc.close();
+        
+       }
     
 }
